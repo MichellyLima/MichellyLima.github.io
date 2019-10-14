@@ -1,8 +1,59 @@
-body{
-    background-color: #611F2C  
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html {
+    min-height: 100%;
+    overflow: hidden;
 }
 
-h1{
+body{
+    background-color: #611F2C;
+}
+
+.line{
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 1px solid rgba(255, 255, 255, 0.75);
+    font-size: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-0%);
+}
+
+/*Animation*/
+
+.anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(10) infinite normal;
+    
+    
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 16em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* Formatations */
+
+.text-formatation{
     text-align: center;
     font-weight: lighter;
     color: white;
@@ -10,6 +61,29 @@ h1{
 }
 
 .rose-font{
-    font-weight: lighter;
-    color: #D51E3C
+    color: #D51E3C;
+    
+    /* #D51E3C ANTES*/
+    /* #D67C8E ROSA CLARO*/  
+}
+
+.social-media{
+    text-align: center;
+    margin: 15px;
+    width: 40;
+    height: 40;
+}
+
+/* Layout */
+#tudo{
+    position: relative;
+}
+
+#rodape {
+    position: relative;
+    bottom: 0px;
+}
+
+#principal{
+    padding-bottom: 350px;
 }

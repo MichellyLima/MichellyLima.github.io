@@ -10,12 +10,22 @@ h1{
     font-family: 'Quicksand';
 }
 
+h1::selection {
+    background: white;
+    color: #E8554E;
+}
+
 .text-formatation{
     text-align: center;
     font-weight: lighter;
     color: white;
     font-size: 26px;
     font-family: 'Quicksand';
+}
+
+.text-formatation::selection {
+    background: white;
+    color: #E8554E;
 }
 
 .text-formatation-email{
@@ -26,8 +36,18 @@ h1{
     font-family: 'Quicksand';
 }
 
+.text-formatation-email::selection {
+    background: white;
+    color: #E8554E;
+}
+
 .rose-font{
     color: #D51E3C; 
+}
+
+.rose-font::selection {
+    background: white;
+    color: #E8554E;
 }
 
 .social-media{
@@ -35,6 +55,11 @@ h1{
     margin: 15px;
     width: 15;
     height: 15;
+}
+
+.social-media::selection {
+    background:  #E8554E;
+    color: white;
 }
 
 /* Layout */

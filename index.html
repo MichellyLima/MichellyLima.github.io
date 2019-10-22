@@ -3,53 +3,65 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>Michelly Lima | Software Developer</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="settings/css/main.css">	
 	<link rel="shortcut icon" href="settings/img/aiko.ico" />
-
+	<script src="settings/js/typed.js"></script>
 </head>
 <body>
-	<div id="tudo">
-		<div id="principal">
-			<img src = "settings/img/aikoLogo.png" width="68" length="68" title = "This is a cute avatar of myself :3""/>
-		
-			<h1 class="text-formatation">
-				Hey there!
-				<br/>
-				My name is <strong class="rose-font"> Michelly </strong> and I'm a <strong class="rose-font"> 19 yo </strong>
-				<br/>
-				
-				<p class="line anim-typewriter">student of Software Engineering</p>
-				</center>
-			</h1>
-		</div>	
-
-		<div id="rodape">
-			<footer>
-				<div  class="social-media">
-					<a href="https://github.com/MichellyLima" target="_blank"> <!--Github link-->
-							<img src="settings/img/github-icon.png" class="social-media" width="40" height="40" alt="Github MichellyLima"/>
-					</a>
-
-					<a href="https://www.instagram.com/mih_blue/" target="_blank"> <!--Instagram link-->
-						<img src="settings/img/instagram-icon.png" class="social-media" width="40" height="40" alt="Instagram @mih_blue"/>
-					</a>
-
-					<a href="https://www.linkedin.com/in/michelly-silva-lima-a94055177/" target="_blank">
-						<img src="settings/img/linkedin-icon.png" class="social-media" width="35" height="35" alt="Linkedin michelly-silva-lima-a94055177"/>
-					</a>
-
-					<a href="mailto:michelly_slima@outlook.com" target="_blank">	
-						<img src="settings/img/email-icon.png" class="social-media" width="40" height="40" alt="Email michelly_slima"/>
-					</a>
-				</div>
-
-				<h4 class="text-formatation">
-					michelly_slima@outlook.com
-				</h4>
-			</footer>
+	<img src = "settings/img/aikoLogo.png" width="68" length="68" title = "This is a cute avatar of myself :3""/>
+	
+	<h1>Hey there!</h1>
+	<br/>
+	<h1>
+		My name is <strong class="rose-font"> Michelly </strong> and I'm a <strong class="rose-font"> 19 yo </strong>
+		<br/>
+		<div id="typed-strings">
+				<p>software development lover</p>
+				<p>nerd girl</p>
+				<p>Software Engineering student</p>
+				<p>green sheep of family</p>
+				<p>Python and Java programmer</p>
+				<p>game lover</p>
 		</div>
-	</div>
-
+	
+		<span id="typed" style="background-color: #D51E3C; color: black"></span>
+	</h1>
+			
+	<script>
+		var typed = new Typed('#typed',{
+         	stringsElement: '#typed-strings',
+            backSpeed: 70,
+			typeSpeed: 65,
+			loop: true,
+			shuffle: true
+        });
+	</script>
+		
 	<script src="settings/js/typed.js"></script>
 </body>
+
+<footer id="rodape">
+	<div  class="social-media">
+		<a href="https://github.com/MichellyLima" target="_blank"> <!--Github link-->
+			<img src="settings/img/github-icon.png" class="social-media" width="25" height="25" alt="Github MichellyLima"/>
+		</a>
+
+		<a href="https://www.instagram.com/mih_blue/" target="_blank"> <!--Instagram link-->
+			<img src="settings/img/instagram-icon.png" class="social-media" width="25" height="25"Instagram @mih_blue"/>
+		</a>
+
+		<a href="https://www.linkedin.com/in/michelly-silva-lima-a94055177/" target="_blank"><!--Linkedin link-->
+			<img src="settings/img/linkedin-icon.png" class="social-media" width="20" height="20" alt="Linkedin michelly-silva-lima-a94055177"/>
+		</a>
+
+		<a href="mailto:michelly_slima@outlook.com" target="_blank"><!--Email link-->	
+			<img src="settings/img/email-icon.png" class="social-media" width="25" height="25" alt="Email michelly_slima"/>
+		</a>
+	</div>
+
+	<h5 class="text-formatation-email">
+		michelly_slima@outlook.com
+	</h5>
+</footer>
 </html>

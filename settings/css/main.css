@@ -3,15 +3,6 @@ html {
     background-color: #611F2C
 }	
 
-
-.typed-formatation{
-    color: black;
-}
-
-.rose-font{
-    color: #D51E3C; 
-}
-
 /* Selections */
 h1::selection {
     background: white;
@@ -58,10 +49,21 @@ h1::selection {
         font-weight: normal;
         color: white;
         font-family: 'Quicksand';
+        font-size: 26px;
     }
 
     footer{
         padding-top: 160px;
+    }
+
+    .typed-formatation{
+        color: black;
+        font-size: 26px;
+    }
+    
+    .rose-font{
+        color: #D51E3C; 
+        font-size: 26px;
     }
 
     .text-formatation{
@@ -117,27 +119,35 @@ h1::selection {
 }
 
 @media (max-width: 320px) {
-    .container {
-        width: 90%;
+
+    .container{
+        width: 96%;
     }
 
     .logo{
-        width:"50";
-        height:"50";
         float: left;
-        margin-right: 0;
+        margin-right: 0px;
     }
 
     h1{
+        padding-top: 50px;
         text-align: center;
         font-weight: normal;
         color: white;
         font-family: 'Quicksand';
-        font-size: 18;
+        font-size: 18px;
+    }
+
+    .text-formatation{
+        text-align: center;
+        font-weight: lighter;
+        color: white;
+        font-size: 18px;
+        font-family: 'Quicksand';
     }
 
     footer{
-        padding-top: 65px;
+        padding-top: 50px;
     }
 
     body{
@@ -147,13 +157,16 @@ h1::selection {
         margin-right: 0;
     }
 
-    .text-formatation{
-        text-align: center;
-        font-weight: lighter;
-        color: white;
-        font-size: 18
-        font-family: 'Quicksand';
+    .typed-formatation{
+        color: black;
+        font-size: 18px;
     }
+    
+    .rose-font{
+        color: #D51E3C; 
+        font-size: 18px;
+    }
+
     .text-formatation-email{
         text-align: center;
         font-weight: lighter;
@@ -165,8 +178,8 @@ h1::selection {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 220px;
-        height: 80px;
+        width: 200px;
+        height: 70px;
     }
 
     /* Botões */

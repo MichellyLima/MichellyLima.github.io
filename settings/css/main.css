@@ -124,6 +124,7 @@ h1::selection {
         width:"50";
         height:"50";
         float: left;
+        margin-right: 0;
     }
 
     footer{
@@ -141,14 +142,14 @@ h1::selection {
         text-align: center;
         font-weight: lighter;
         color: white;
-        font-size: 18px;
+        font-size: 14px;
         font-family: 'Quicksand';
     }
     .text-formatation-email{
         text-align: center;
         font-weight: lighter;
         color: white;
-        font-size: 16px;
+        font-size: 12px;
         font-family: 'Quicksand';
     }
     .social-media{

@@ -40,20 +40,18 @@ h1::selection {
         float: left;
     }
 
-    .container{
-        width: 96%;
-    }
-
     h1{
         text-align: center;
+        padding-top: 5%;
         font-weight: normal;
         color: white;
         font-family: 'Quicksand';
         font-size: 26px;
     }
 
+
     footer{
-        padding-top: 160px;
+        padding-top: 250px;
     }
 
     .typed-formatation{
@@ -66,13 +64,6 @@ h1::selection {
         font-size: 26px;
     }
 
-    .text-formatation{
-        text-align: center;
-        font-weight: lighter;
-        color: white;
-        font-size: 26px;
-        font-family: 'Quicksand';
-    }
     .text-formatation-email{
         text-align: center;
         font-weight: lighter;
@@ -130,7 +121,7 @@ h1::selection {
     }
 
     h1{
-        padding-top: 50px;
+        padding-top: 100px;
         text-align: center;
         font-weight: normal;
         color: white;
@@ -138,13 +129,6 @@ h1::selection {
         font-size: 18px;
     }
 
-    .text-formatation{
-        text-align: center;
-        font-weight: lighter;
-        color: white;
-        font-size: 18px;
-        font-family: 'Quicksand';
-    }
 
     footer{
         padding-top: 50px;

@@ -1,7 +1,8 @@
 /* Global */
 html {
-    background-color: #611F2C
+    background-color: #611F2C;
 }
+	
 
 h1{
     text-align: center;
@@ -15,6 +16,7 @@ h1::selection {
     color: #E8554E;
 }
 
+/*Classes*/
 .text-formatation{
     text-align: center;
     font-weight: lighter;
@@ -41,6 +43,15 @@ h1::selection {
     color: #E8554E;
 }
 
+.typed-formatation{
+    color: black;
+}
+
+.typed-formatation::selection {
+    background: white;
+    color: #E8554E;
+}
+
 .rose-font{
     color: #D51E3C; 
 }
@@ -51,10 +62,11 @@ h1::selection {
 }
 
 .social-media{
-    text-align: center;
-    margin: 15px;
-    width: 15;
-    height: 15;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 198px;
+    height: 70px;
 }
 
 .social-media::selection {
@@ -64,5 +76,5 @@ h1::selection {
 
 /* Layout */
 footer{
-    padding: 250px;
+    padding-top: 160px;
 }

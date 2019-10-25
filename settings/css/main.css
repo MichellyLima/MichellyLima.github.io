@@ -124,16 +124,21 @@ h1::selection {
         height:"68";
     }
 
+    footer{
+        padding-top: 75px;
+    }
+
     body{
         text-align: center;
-        position:absolute;
+        position: static;
+        margin-right: 0;
     }
 
     .text-formatation{
         text-align: center;
         font-weight: lighter;
         color: white;
-        font-size: 30px;
+        font-size: 25px;
         font-family: 'Quicksand';
     }
     .text-formatation-email{

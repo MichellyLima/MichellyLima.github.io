@@ -1,8 +1,7 @@
 /* Global */
 html {
-    background-color: #611F2C;
-}
-	
+    background-color: #611F2C
+}	
 
 h1{
     text-align: center;
@@ -15,6 +14,11 @@ h1::selection {
     background: white;
     color: #E8554E;
 }
+
+footer{
+    padding-top: 160px;
+}
+
 
 /*Classes*/
 .text-formatation{
@@ -74,7 +78,31 @@ h1::selection {
     color: white;
 }
 
-/* Layout */
-footer{
-    padding-top: 160px;
-}
+/* Botões */
+.butn {
+    background: #D51E3C;
+    background-image: -webkit-linear-gradient(top, #D51E3C, #a1122a);
+    background-image: -moz-linear-gradient(top, #D51E3C, #a1122a);
+    background-image: -ms-linear-gradient(top, #D51E3C, #a1122a);
+    background-image: -o-linear-gradient(top, #D51E3C, #a1122a);
+    background-image: linear-gradient(to bottom, #D51E3C, #a1122a);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Quicksand';
+    color: #ffffff;
+    font-size: 13px;
+    padding: 8px 10px 8px 10px;
+    text-decoration: none;
+    float: right
+  }
+  
+  .butn:hover {
+    background: #e32242;
+    background-image: -webkit-linear-gradient(top, #e32242, #D51E3C);
+    background-image: -moz-linear-gradient(top, #e32242, #D51E3C);
+    background-image: -ms-linear-gradient(top, #e32242, #D51E3C);
+    background-image: -o-linear-gradient(top, #e32242, #D51E3C);
+    background-image: linear-gradient(to bottom, #e32242, #D51E3C);
+    text-decoration: none;
+  }
